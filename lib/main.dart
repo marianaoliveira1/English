@@ -1,3 +1,4 @@
+import 'package:english/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Ingles - App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: Container(),
+      home: HomeScreen(),
     );
   }
 }

@@ -12,7 +12,11 @@ class _BichosScreenState extends State<BichosScreen> {
   Widget build(BuildContext context) {
     return GridView.count(
       crossAxisCount: 2,
-      children: [],
+      children: [
+        GestureDetector(
+          onTap: () {},
+        )
+      ],
     );
   }
 }

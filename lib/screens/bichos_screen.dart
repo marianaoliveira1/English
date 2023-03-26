@@ -10,6 +10,9 @@ class BichosScreen extends StatefulWidget {
 class _BichosScreenState extends State<BichosScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return GridView.count(
+      crossAxisCount: 2,
+      children: [],
+    );
   }
 }

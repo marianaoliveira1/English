@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class NumerosScreen extends StatefulWidget {
-  const NumerosScreen({super.key});
-
   @override
   State<NumerosScreen> createState() => _NumerosScreenState();
 }
@@ -12,6 +10,7 @@ class _NumerosScreenState extends State<NumerosScreen> {
   Widget build(BuildContext context) {
     return GridView.count(
       crossAxisCount: 2,
+      childAspectRatio: 1.2,
       children: [
         GestureDetector(
           onTap: () {},
